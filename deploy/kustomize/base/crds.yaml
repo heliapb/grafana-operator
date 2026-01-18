@@ -1124,6 +1124,7 @@ spec:
                   rule: self == oldSelf
               url:
                 description: model url
+                pattern: ^https?://.+$
                 type: string
               urlAuthorization:
                 description: authorization options for model from url
@@ -2212,6 +2213,7 @@ spec:
                   rule: self == oldSelf
               url:
                 description: model url
+                pattern: ^https?://.+$
                 type: string
               urlAuthorization:
                 description: authorization options for model from url
@@ -7465,6 +7467,7 @@ spec:
                   url:
                     description: URL of the external grafana instance you want to
                       manage.
+                    pattern: ^https?://.+$
                     type: string
                 required:
                 - url
